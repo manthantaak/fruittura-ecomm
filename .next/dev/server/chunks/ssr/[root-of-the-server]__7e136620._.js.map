@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/OneDrive/Desktop/fruittura-e-commerce-frontend/lib/store-provider.tsx"],"sourcesContent":["\"use client\"\n\nimport type { ReactNode } from \"react\"\n\n// NOTE: Zustand stores are already initialized with persist middleware\n// This provider ensures hydration happens correctly on the client\nexport function StoreProvider({ children }: { children: ReactNode }) {\n  return <>{children}</>\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAMO,SAAS,cAAc,EAAE,QAAQ,EAA2B;IACjE,qBAAO;kBAAG;;AACZ"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/OneDrive/Desktop/fruittura-e-commerce-frontend/components/ui/sonner.tsx"],"sourcesContent":["\"use client\"\n\nimport type React from \"react\"\n\nimport { Toaster as Sonner, type ToasterProps } from \"sonner\"\n\nconst Toaster = ({ ...props }: ToasterProps) => {\n  return (\n    <Sonner\n      theme=\"light\"\n      className=\"toaster group\"\n      style={\n        {\n          \"--normal-bg\": \"var(--popover)\",\n          \"--normal-text\": \"var(--popover-foreground)\",\n          \"--normal-border\": \"var(--border)\",\n        } as React.CSSProperties\n      }\n      {...props}\n    />\n  )\n}\n\nexport { Toaster }\n"],"names":[],"mappings":";;;;;AAIA;AAJA;;;AAMA,MAAM,UAAU,CAAC,EAAE,GAAG,OAAqB;IACzC,qBACE,8OAAC,mJAAM;QACL,OAAM;QACN,WAAU;QACV,OACE;YACE,eAAe;YACf,iBAAiB;YACjB,mBAAmB;QACrB;QAED,GAAG,KAAK;;;;;;AAGf"}}]
+}
