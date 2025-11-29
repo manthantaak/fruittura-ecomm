@@ -1,5 +1,10 @@
 {
   "/about/page": "app/about/page.js",
   "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js"
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/product/[slug]/page": "app/product/[slug]/page.js",
+  "/shop/page": "app/shop/page.js",
+  "/wishlist/page": "app/wishlist/page.js"
 }

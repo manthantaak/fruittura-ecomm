@@ -100,15 +100,15 @@ export function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="relative hidden lg:block"
+            className="relative mt-12 lg:mt-0 flex justify-center items-center"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="relative aspect-square">
+            <div className="relative aspect-square w-full max-w-[320px] md:max-w-[450px] lg:max-w-[500px]">
               {/* Main product image */}
               <motion.div
-                className="absolute inset-8 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl"
+                className="absolute inset-4 md:inset-8 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl"
                 animate={{
                   rotate: [0, 2, 0, -2, 0],
                 }}
@@ -128,30 +128,36 @@ export function HeroSection() {
 
               {/* Floating product cards */}
               <motion.div
-                className="absolute -top-4 -right-4 bg-card rounded-lg shadow-lg p-3 border border-border"
+                className="absolute -top-2 -right-2 md:-top-4 md:-right-4 bg-card rounded-lg shadow-lg p-2 md:p-3 border border-border max-w-[100px] md:max-w-none"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
               >
-                <Image src="/premium-california-almonds.jpg" alt="Almonds" width={80} height={80} className="rounded-md" />
-                <p className="text-xs font-medium mt-1 text-center">Almonds</p>
+                <div className="relative w-16 h-16 md:w-20 md:h-20">
+                  <Image src="/premium-california-almonds.jpg" alt="Almonds" fill className="rounded-md object-cover" />
+                </div>
+                <p className="text-[10px] md:text-xs font-medium mt-1 text-center">Almonds</p>
               </motion.div>
 
               <motion.div
-                className="absolute -bottom-4 -left-4 bg-card rounded-lg shadow-lg p-3 border border-border"
+                className="absolute -bottom-2 -left-2 md:-bottom-4 md:-left-4 bg-card rounded-lg shadow-lg p-2 md:p-3 border border-border max-w-[100px] md:max-w-none"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 0.5 }}
               >
-                <Image src="/premium-cashew-nuts.jpg" alt="Cashews" width={80} height={80} className="rounded-md" />
-                <p className="text-xs font-medium mt-1 text-center">Cashews</p>
+                <div className="relative w-16 h-16 md:w-20 md:h-20">
+                  <Image src="/premium-cashew-nuts.jpg" alt="Cashews" fill className="rounded-md object-cover" />
+                </div>
+                <p className="text-[10px] md:text-xs font-medium mt-1 text-center">Cashews</p>
               </motion.div>
 
               <motion.div
-                className="absolute top-1/2 -right-8 bg-card rounded-lg shadow-lg p-3 border border-border"
+                className="absolute top-1/2 -right-4 md:-right-8 bg-card rounded-lg shadow-lg p-2 md:p-3 border border-border max-w-[100px] md:max-w-none"
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 1 }}
               >
-                <Image src="/kashmiri-saffron-threads.jpg" alt="Saffron" width={80} height={80} className="rounded-md" />
-                <p className="text-xs font-medium mt-1 text-center">Saffron</p>
+                <div className="relative w-16 h-16 md:w-20 md:h-20">
+                  <Image src="/kashmiri-saffron-threads.jpg" alt="Saffron" fill className="rounded-md object-cover" />
+                </div>
+                <p className="text-[10px] md:text-xs font-medium mt-1 text-center">Saffron</p>
               </motion.div>
             </div>
           </motion.div>
