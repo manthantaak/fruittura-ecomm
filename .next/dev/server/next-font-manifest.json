@@ -1,30 +1,6 @@
 {
   "app": {
-    "[project]/app/about/page": [
-      "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/app/login/page": [
-      "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
     "[project]/app/page": [
-      "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/app/product/[slug]/page": [
-      "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/app/register/page": [
-      "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/app/shop/page": [
-      "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
-      "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
-    ],
-    "[project]/app/terms/page": [
       "static/media/8c2eb9ceedecfc8e-s.p.21935807.woff2",
       "static/media/2a65768255d6b625-s.p.d19752fb.woff2"
     ]

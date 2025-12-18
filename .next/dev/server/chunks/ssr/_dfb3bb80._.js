@@ -1392,7 +1392,7 @@ function Header() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SheetContent"], {
                                                 side: "right",
-                                                className: "w-80",
+                                                className: "w-[85vw] sm:w-[350px] overflow-y-auto",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SheetTitle"], {
                                                         className: "sr-only",
@@ -1403,7 +1403,7 @@ function Header() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex flex-col gap-6 mt-8",
+                                                        className: "flex flex-col gap-6 mt-8 h-full",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                                                 onSubmit: handleSearch,
@@ -1423,53 +1423,53 @@ function Header() {
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                                                className: "flex flex-col gap-4",
+                                                                className: "flex flex-col gap-4 pb-8 items-center text-center w-full",
                                                                 children: navLinks.map((link)=>link.children ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "space-y-2",
+                                                                        className: "space-y-2 w-full",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "font-medium text-foreground",
+                                                                                className: "font-medium text-foreground block",
                                                                                 children: link.label
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/layout/header.tsx",
-                                                                                lineNumber: 266,
+                                                                                lineNumber: 267,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "pl-4 flex flex-col gap-2",
+                                                                                className: "flex flex-col gap-2 items-center w-full",
                                                                                 children: link.children.map((child)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                         href: child.href,
-                                                                                        className: "text-muted-foreground hover:text-primary transition-colors",
+                                                                                        className: "text-muted-foreground hover:text-primary transition-colors py-1",
                                                                                         onClick: ()=>setMobileMenuOpen(false),
                                                                                         children: child.label
                                                                                     }, child.href, false, {
                                                                                         fileName: "[project]/components/layout/header.tsx",
-                                                                                        lineNumber: 269,
+                                                                                        lineNumber: 270,
                                                                                         columnNumber: 31
                                                                                     }, this))
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/layout/header.tsx",
-                                                                                lineNumber: 267,
+                                                                                lineNumber: 268,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, link.label, true, {
                                                                         fileName: "[project]/components/layout/header.tsx",
-                                                                        lineNumber: 265,
+                                                                        lineNumber: 266,
                                                                         columnNumber: 25
                                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                         href: link.href,
-                                                                        className: "text-foreground hover:text-primary transition-colors",
+                                                                        className: "text-foreground hover:text-primary transition-colors w-full py-1",
                                                                         onClick: ()=>setMobileMenuOpen(false),
                                                                         children: link.label
                                                                     }, link.href, false, {
                                                                         fileName: "[project]/components/layout/header.tsx",
-                                                                        lineNumber: 281,
+                                                                        lineNumber: 282,
                                                                         columnNumber: 25
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/layout/header.tsx",
-                                                                lineNumber: 262,
+                                                                lineNumber: 263,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
